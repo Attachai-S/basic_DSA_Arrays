@@ -1,14 +1,14 @@
 import random
 
-def random_arr(round): #random member to arrays
-    arr = []
-    for i in range(round):
+def random_arr(member): #random member to arrays
+    for i in range(member):
         num = random.randint(1, 100)
         arr.append(num)
-    print(arr)
+    return(arr)
 
-random_arr(5)#change number to increase or decrease member arrays
-
+arr = []
+random_arr(7)#change number to increase or decrease member arrays
+print(arr)
 # strt,stp,step = 1,6,1
 # run_number = list(range(strt,stp,step))
 
